@@ -1,0 +1,65 @@
+
+/*
+body{
+       background: #f8f7ff;
+        
+
+    height: 100%;
+}
+
+.main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-wrapper{
+position: relative;
+height: 1000px;
+width: 480px;
+border: 1px solid #ccc;
+border-radius: 30px;
+
+}
+main{
+margin-top: 20px;
+background: white;
+height: auto;
+}
+ 
+*{font-family: Georgia, serif;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    }
+
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    height: 100%;
+    margin: 0;
+    height: calc(100vh + 75px);
+  }
+  main {
+    padding: 20px;
+  }

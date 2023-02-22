@@ -1,0 +1,75 @@
+.userPhoto{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    vertical-align: top;
+    width: auto;
+    
+}
+.selectedPage{
+    background-color: #504de4;
+    color: white;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination span {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 10px;
+    border: 1px solid rgb(80,77,228);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+.users{
+    display:flex;
+    align-items:center;
+    padding: 15px 0px 15px;
+    border-bottom: 1px solid #d3dce1;
+    border-width: thin;
+}
+.status{
+    color: #d3dce1;
+    font-size: 14px;
+    align-self: flex-end;
+}
+.discription {
+    display:flex; 
+    flex-direction:column;
+
+}
+.name{
+    font-size: 16px;
+    color: #7d8aab;
+}
+.follow{
+    margin-left: auto;
+    background-color:rgb(80,77,228);
+    border-radius:20px; 
+    padding:2px 12px; 
+    color:white;
+    font-size: 14px;
+    border: 1px solid rgb(80,77,228);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.6px;
+}
+.unfollow{
+    margin-left: auto;
+    background-color:white;
+    border-radius:20px; 
+    padding:2px 12px; 
+    color:rgb(80,77,228);
+    font-size: 14px;
+    border: 1px solid rgb(80,77,228);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.6px;
+}
+.toProfile{
+    text-decoration: none;
+}
